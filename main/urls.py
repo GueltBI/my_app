@@ -23,7 +23,9 @@ urlpatterns = [
     
     path('',views.home, name='home'),
     path('admin/', admin.site.urls),
-    path('dados/',views.home1, name='home1'),
+    path('comissão/',views.home1, name='home1'),
+    path('captação/',views.home2, name='home2'),
+
 
 
 ]
