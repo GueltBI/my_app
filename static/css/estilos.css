@@ -11,3 +11,21 @@ a{
     color: #ffffff;
 
 }
+
+#btn {
+    animation: duration 15s;
+    animation-iteration-count: infinite;
+    animation-name: slidein;
+  }
+  
+@keyframes slidein {
+  from {
+    margin-left:80%;
+    width: 30%;
+  }
+
+  to {
+    margin-left: -40%;
+    width: 100%;
+  }
+}
