@@ -122,12 +122,12 @@ USE_TZ = False
 
 STATIC_URL = '/static/' #durante o desenvolvimento
 STATIC_ROOT = os.path.join(BASE_DIR,'staticfiles') #usado durante a produção
-#STATICFILES_DIRS = [
+STATICFILES_DIRS = [
     
-#    os.path.join(BASE_DIR,'static')
+    os.path.join(BASE_DIR,'static')
 
 
-#] #usado durante a produção
+] #usado durante a produção
 
 #STATIC_URL = os.path.join(BASE_DIR,'staticfiles') #usado durante a produção
 #STATIC_URL = os.path.join(BASE_DIR,'media') #usado durante a produção
