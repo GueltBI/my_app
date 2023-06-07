@@ -17,3 +17,6 @@ def home3(request):
 
 def home4(request):
     return render(request,'usuarios/home4.html')
+
+def home5(request):
+    return render(request,'usuarios/home5.html')
