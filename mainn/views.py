@@ -26,4 +26,3 @@ def home6(request):
 
 def home7(request):
     return render(request,'usuarios/home7.html')
-
