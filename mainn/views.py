@@ -23,3 +23,7 @@ def home5(request):
 
 def home6(request):
     return render(request,'usuarios/home6.html')
+
+def home7(request):
+    return render(request,'usuarios/home7.html')
+
