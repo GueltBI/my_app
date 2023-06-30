@@ -20,3 +20,6 @@ def home4(request):
 
 def home5(request):
     return render(request,'usuarios/home5.html')
+
+def home6(request):
+    return render(request,'usuarios/home6.html')
