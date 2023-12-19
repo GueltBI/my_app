@@ -39,32 +39,174 @@ width: 100%;
 margin-top: 10px;
 margin-bottom: 2px;
 height: 70px"
-id="btn" ><h1>Bem-vindo ao HUB</h1></span
+id="btn" ><h1>Bem-vindo(a) de volta!</h1></span>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap">
 
 
 
- <!--<a  id="btn"></a> -->
 
 
-  
-    <div class="container">
-        <!--<h1>Cadastro de Usuários</h1> -->
-        <!--#Nome<input type="text"> -->
-        <!--Idade<input type="text"> -->
-        <!--<button>Enviar</button> -->
-        
-        <!-- LINK DO DASH DE CAPTAÇÃO -->
-        <br>
-        <br>
-        <br>
-        
-       
-        
-        <!--<iframe title="Dash Pagamentos" width="1400" height="800" src="https://app.powerbi.com/reportEmbed?reportId=79e6dcb8-326f-4f0c-b04b-4964b9084556&autoAuth=true&ctid=7b3dcd90-9c8b-475f-9e7d-5955598fff51" frameborder="0" allowFullScreen="false"></iframe> -->    
-        <iframe title="Guelt HUB" width="1400" height="800" src="https://app.powerbi.com/reportEmbed?reportId=4a80d376-099d-4c23-9764-ab2286349554&autoAuth=true&ctid=7b3dcd90-9c8b-475f-9e7d-5955598fff51" frameborder="0" allowFullScreen="true"></iframe>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Adicione o link do Google Fonts e Font Awesome no cabeçalho -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-ZyX6E0L7GWtU8xmZanfuCjchBKXT2RS/CGE4xhtNWInFVPI0xwK9XWl4c3dFmcVzE9myyEQgG5p2VDjQAgq/7Q==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <style>
+        .header-text {
+            display: flex;
+            align-items: baseline;
+            margin-left: 300px;
+        }
+
+        .header-text h1 {
+            font-family: 'Montserrat', sans-serif;
+            font-size: 28px;
+            font-weight: bold;
+            color: #333;
+            margin: 0;
+        }
+
+        .header-text h1:first-child {
+            margin-right: 7%; /* Ajuste a margem direita para "BANK" usando porcentagem */
+        }
+
+        .header-text h1:last-child {
+            margin-left: 53%; /* Ajuste a margem esquerda para "ALLOCATION" usando porcentagem */
+        }
+
+
+        @media (max-width: 768px) {
+            .header-text {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .header-text h1:first-child,
+            .header-text h1:last-child {
+                margin: 0; /* Remove as margens em telas menores */
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="header-text">
+        <h1>BANK</h1>
+        <h1>ALLOCATION</h1>
     </div>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+</body>
+</html>
+
+<br>
+
+
+<div class="card-container" style="display: flex; gap: 20px; margin-left: 20px;">
+ 
+
+
+  <div class="card" style="width: 15rem;">
+      <div class="card-body">
+          <h5 class="card-title">Comissão</h5>
+          <p class="card-text">Folha de pagamento, comissionamento em todos os níveis da produção, além da margem de contribuição.</p>
+          <a href="https://app.powerbi.com/reportEmbed?reportId=79e6dcb8-326f-4f0c-b04b-4964b9084556&autoAuth=true&ctid=7b3dcd90-9c8b-475f-9e7d-5955598fff51" class="btn btn-primary" target="_blank">Acessar</a>
+      </div>
+  </div>
+
+  <div class="card text-center" style="width: 18rem;">
+      <div class="card-body">
+          <h5 class="card-title">Receita & ROA</h5>
+          <p class="card-text">Receita nível escritório por produto e plataforma com o ROA. Além de ter a evolução histórica de todos esses Kpis</p>
+          <a href="https://app.powerbi.com/reportEmbed?reportId=e315a338-58d7-4688-909d-9d83b771a07e&autoAuth=true&ctid=7b3dcd90-9c8b-475f-9e7d-5955598fff51" class="btn btn-primary" target="_blank">Acessar</a>
+      </div>
+  </div>
+
+  <div class="card text-right" style="width: 18rem;">
+    <div class="card-body">
+      <h5 class="card-title">Estruturadas</h5>
+      <p class="card-text">Receita por Estruturada e quantidade de operações feitas, além do acompanhamento de operações em aberto.</p>
+      <a href="https://app.powerbi.com/reportEmbed?reportId=8d325d3a-c5ed-4969-91da-656d3bc251e7&autoAuth=true&ctid=7b3dcd90-9c8b-475f-9e7d-5955598fff51" class="btn btn-primary" target="_blank" >Acessar</a>
+    </div>
+  </div>
+
+
+  <style>
+    /* Adicione qualquer estilo personalizado aqui */
+
+    /* Adiciona uma largura ao espaçador horizontal */
+    .horizontal-spacer {
+        width: 50px; /* Altere o valor conforme necessário */
+        display: inline-block;
+    }
+    </style>
+
+  <div class="horizontal-spacer"></div>
+
+
+  <div class="card text-right" style="width: 18rem;">
+    <div class="card-body">
+      <h5 class="card-title">Alocação BI</h5>
+      <p class="card-text">Desenvolvido para a área de alocação com custódia dos fundo da grade, rentabilidade do mês dos fundos da Grade, captação líquida de todos os fundos da grade no ano.</p>
+      <a href="https://app.powerbi.com/reportEmbed?reportId=806d512d-6cb1-41a4-92a5-e78554b8e829&autoAuth=true&ctid=7b3dcd90-9c8b-475f-9e7d-5955598fff51" class="btn btn-primary"  target="_blank">Acessar</a>
+    </div>
+  </div>
+
+  <div class="card text-right" style="width: 18rem;">
+    <div class="card-body">
+      <h5 class="card-title">Alocação BI</h5>
+      <p class="card-text">Desenvolvido para a área de alocação com custódia dos fundo da grade, rentabilidade do mês dos fundos da Grade, captação líquida de todos os fundos da grade no ano.</p>
+      <a href="https://app.powerbi.com/reportEmbed?reportId=806d512d-6cb1-41a4-92a5-e78554b8e829&autoAuth=true&ctid=7b3dcd90-9c8b-475f-9e7d-5955598fff51" class="btn btn-primary"  target="_blank">Acessar</a>
+    </div>
+  </div>
+
+
+</div>
+
+<br>
+
+<div class="card-container" style="display: flex; gap: 20px; margin-left: 20px;">
+  <div class="card" style="width: 15rem;">
+      <div class="card-body">
+          <h5 class="card-title">Captação</h5>
+          <p class="card-text">Histórico de captação no período selecionado, além da captação dessas contas no periodo.</p>
+          <a href="https://app.powerbi.com/reportEmbed?reportId=20b1cd6a-77ec-4184-8676-d8f14f623ad5&autoAuth=true&ctid=7b3dcd90-9c8b-475f-9e7d-5955598fff51" class="btn btn-primary" target="_blank">Acessar</a>
+      </div>
+  </div>
+
+  <div class="card text-center" style="width: 15rem;">
+      <div class="card-body">
+          <h5 class="card-title">Painel do Assessor</h5>
+          <p class="card-text">Painel com a custódia de todos os ativos da base, saldo em conta e vencimentos.</p>
+          <a href="https://app.powerbi.com/reportEmbed?reportId=43966ce2-2d36-49f5-b50f-13593507ad07&autoAuth=true&ctid=7b3dcd90-9c8b-475f-9e7d-5955598fff51" class="btn btn-primary"target="_blank">Acessar</a>
+      </div>
+  </div>
+
+  <div class="card text-right" style="width: 15rem;">
+    <div class="card-body">
+      <h5 class="card-title">Receita Diária</h5>
+      <p class="card-text">Acompanhamento da receita diária gerada pelas contas, detalhando valor, produto, dia e etc.</p>
+      <a href="https://app.powerbi.com/reportEmbed?reportId=b5e06df0-660c-4c81-b6b9-13f7e576e09c&autoAuth=true&ctid=7b3dcd90-9c8b-475f-9e7d-5955598fff51" class="btn btn-primary" target="_blank">Acessar</a>
+    </div>
+  </div>
+
+</div>
+
 
   
   </body>
 </html>
+
+
+
+
+
